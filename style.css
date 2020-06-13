@@ -1,3 +1,23 @@
 body{
-  background-color: red;
+  background-color: mistyrose;
+  color: red;
+  font-family: Arial;
+}
+
+h1
+{
+  color Blue;
+}
+header {
+  background-color: brown;
+  color-white;
+}
+section {
+  background-color: purplr;
+  color: white
+}
+
+footer{
+  background-color: black;
+  color : white;
 }
