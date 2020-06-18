@@ -15,7 +15,7 @@ as well */
 }
 
 body{
-  background-color: mistyrose;
+  background-color: yellow;
   color: red;
   /* font-family: Arial; */
   margin: 50px;
@@ -27,8 +27,8 @@ body{
   text-decoration:underline;
 }
 h1{
-  color:Blue;
-  font-size: 24px;
+  color:White;
+  font-size: 30px;
 
 }
 
@@ -44,12 +44,11 @@ h1,h2,h3{
   font-weight: normal;
   font-weight: bold;
   font-style: italic;
-  border-bottom: 1px solid black;
 }
 
 p{
   line-height: 1.5;
-  text-align: right;
+  text-align: left;
   margin:15px 0px;
 }
 
@@ -73,11 +72,11 @@ a:hover{
   text-decoration:underline;
 }
 header{
-  background-color: brown;
+  background-color: orange;
   color:white;
 }
 section {
-  background-color: purple;
+  background-color: grey;
   color: white;
   border-bottom:1px dashed red;
   border-bottom: 5px solid grey;
@@ -89,7 +88,7 @@ footer{
   background-color: black;
   color : white;
 }
-body}
+
 
 header,
 section,
@@ -103,7 +102,7 @@ img{
   width: 50%
 }
 .block{
-  border-bottom: 5 px solid green;
+  border-bottom: 5px solid green;
 
 }
 
@@ -147,4 +146,20 @@ figure {
 .gallery-item img{
   width: 100%;
   height: auto;
+}
+
+
+.banner{
+  height: 350px;
+  background-size: cover;
+  background-image: url(images/banner.jpg);
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
