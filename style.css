@@ -27,6 +27,7 @@ body{
 
   font-size:70px;
   text-decoration:underline;
+  margin-bottom: 15px;
 }
 
 h1{
@@ -45,7 +46,6 @@ h3{
 h1,h2,h3{
   font-weight: normal;
   font-weight: bold;
-  font-style: italic;
 }
 
 p{
@@ -74,7 +74,7 @@ a:hover{
   text-decoration:underline;
 }
 header{
-  background-color:darkgrey;
+  background-color:rgba(63,6,6,0.701961);
   color:white;
 }
 section {
@@ -86,7 +86,7 @@ section {
 }
 
 footer{
-  background-color:yellow;
+  background-color:rgba(63,6,6,0.701961);
   color : white;
 }
 
@@ -103,7 +103,7 @@ img{
   width: 50%;
 }
 .block{
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid rgba (63,6,6,0.701961);
 }
 
 .shadow{
@@ -148,6 +148,9 @@ figure {
   background-image:url(images/banner.jpg);
 }
 
+.banner h1{
+  padding-top: 15px;
+}
 
 p {
     display: block;
@@ -155,4 +158,16 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+
+
+
+.box {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.box p {
+  font-size: 24px;
 }
